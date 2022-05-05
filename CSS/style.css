@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: rgb(54,77,204);
+    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(195,54,204,1) 100%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+    margin: 25px 0;
+    font-size: 20px;
+}
+
+.social img {
+    width: 33px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.outrosubtitulo {
+    margin-top: 50px;
+}
+
+.links {
+    text-align: center;
+    margin: 30px 15px 0 15px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 20px white;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
